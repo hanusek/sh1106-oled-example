@@ -1,0 +1,12 @@
+[package]
+name = "oled_bbb"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+i2cdev = "0.5.1"
+sh1106 = "0.4.0"
+linux-embedded-hal = "0.3.0"
+display-interface-i2c = "0.4.0"
+embedded-graphics =  "0.7.1"
